@@ -87,4 +87,4 @@ Each category is labeled with a corresponding integer from 0 to 9, facilitating 
 This project demonstrates the capability of using PySpark for handling large datasets and building machine learning models efficiently. The Fashion MNIST dataset serves as an excellent benchmark for classification tasks.
 
 ## License
-This project is licensed under the GNU General Public License. See the ![LICENSE](LICENSE) file for details.
+This project is licensed under the GNU General Public License. See the [LICENSE](LICENSE) file for details.
