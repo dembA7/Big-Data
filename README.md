@@ -3,7 +3,7 @@
 ## Introduction
 This project aims to build a classification model using the Fashion MNIST dataset, leveraging the power of PySpark for data processing and machine learning. The Fashion MNIST dataset contains images of clothing items, which are labeled with categories such as T-shirt, trouser, pullover, dress, coat, sandal, shirt, sneaker, bag, and ankle boot.
 
-## Project Structura
+## Project Structure
 ```bash
 Big-Data/
 │
