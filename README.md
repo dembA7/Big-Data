@@ -7,17 +7,21 @@ This project aims to build a classification model using the Fashion MNIST datase
 ```bash
 Big-Data/
 │
-├── data/                      # Directory containing datasets
-│   ├── fashion-mnist_train.csv
-│   └── fashion-mnist_test.csv
-│
-├── models/                    # Directory for storing trained models
-│
-├── data_preparation.py        # Script for preparing the dataset
-├── model_training.py          # Script for training the classification model
-├── model_evaluator.py         # Script for evaluating the model's performance
-├── model_metrics.txt          # File for storing model metrics
-└── predictions/               # Directory containing predictions
+├── assets/                      # Images and visualization files
+├── data/                        # Directory containing datasets
+│   └── fashion-mnist_train.csv  # Train split dataset (80%)
+│   └── fashion-mnist_test.csv   # Test split dataset (20%)
+├── models/                      # Directory for storing trained models
+├── predictions/                 # Directory containing predictions done by trained models
+├── results/                     # Contains metrics and visualization results
+├── source/                      # Source code for the project
+│   └── data_preparation.py      # Script for preparing the dataset
+│   └── data_visualization.py    # Script for dataset visualization
+│   └── model_training.py        # Script for training the classification model
+│   └── model_evaluator.py       # Script for evaluating the model's performance
+├── main.ipynb                   # Main file of the project
+├── Report.pdf                   # Final individual report
+├── Report_Team_Data.pdf         # Final team report
 ```
 
 ## Getting Started
@@ -48,17 +52,17 @@ pip install pyspark gitpython opencv-python matplotlib pandas
 ## Usage
 1. Prepare the data: Run the data_preparation.py script to preprocess the Fashion MNIST dataset.
 ```bash
-python data_preparation.py
+python source/data_preparation.py
 ```
 
 2. Train the model: Execute the model_training.py script to train the classification model.
 ```bash
-python model_training.py
+python source/model_training.py
 ```
 
 3. Evaluate the model: Run the model_evaluator.py script to evaluate the trained model and save predictions.
 ```bash
-python model_evaluator.py
+python source/model_evaluator.py
 ```
 
 ## Dataset
