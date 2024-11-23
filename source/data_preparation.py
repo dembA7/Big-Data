@@ -1,8 +1,5 @@
 from pyspark.sql import SparkSession
 from pyspark.ml.feature import VectorAssembler
-from pyspark.ml.linalg import Vectors
-from pyspark.sql.functions import col
-from pyspark.sql.types import IntegerType
 
 # Creo mi sesión de Spark
 spark = SparkSession.builder \

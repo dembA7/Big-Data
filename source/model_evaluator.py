@@ -2,8 +2,6 @@ from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, udf, concat_ws
 from pyspark.ml.classification import RandomForestClassificationModel
 from pyspark.ml.evaluation import MulticlassClassificationEvaluator
-from pyspark.mllib.evaluation import MulticlassMetrics
-from pyspark.ml.feature import VectorAssembler
 from pyspark.ml.linalg import Vector
 from pyspark.sql.types import ArrayType, DoubleType
 

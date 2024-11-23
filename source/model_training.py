@@ -1,7 +1,5 @@
 from pyspark.sql import SparkSession
 from pyspark.ml.classification import RandomForestClassifier
-from pyspark.ml.evaluation import MulticlassClassificationEvaluator
-from pyspark.sql import DataFrameReader
 
 # Creo mi sesión de Spark
 spark = SparkSession.builder \
